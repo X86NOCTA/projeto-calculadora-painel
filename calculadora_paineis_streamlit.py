@@ -28,9 +28,10 @@ if st.button("Calcular"):
         perda_solda = 0.10
 
         materiais = {
-            "PVC TRANÇADO BRANCO/CINZA 0,4MM": {"peso": 0.6, "bobina": 3.0, "preco": 50},
-            "PVC PURO PRETO/PRETO 1MM": {"peso": 1.1, "bobina": 2.3, "preco": 68},
-            "PVC TRANÇADO AZUL/AZUL 0,9MM": {"peso": 1.3, "bobina": 3.0, "preco": 57},
+            "PVC TRANÇADO BRANCO/CINZA 0,4MM": {"peso": 0.6, "bobina": 3.0, "preco": 25},
+            "PVC PURO PRETO/PRETO 1MM": {"peso": 1.1, "bobina": 2.3, "preco": 57},
+            "PVC TRANÇADO AZUL/AZUL 0,9MM": {"peso": 1.3, "bobina": 3.0, "preco": 68},
+            "PVC TRANÇADO CINZA/CINZA 0.8MM": {"peso": 0.6, "bobina": 2.0, "preco": 50},
             "PEAD TRANÇADO VERDE/PRETO 0,75MM": {"peso": 0.45, "bobina": 4.2, "preco": 32},
             "PEAD TRANÇADO PRETO/PRETO 1MM": {"peso": 0.6, "bobina": 4.0, "preco": 40},
         }
@@ -79,3 +80,7 @@ if st.button("Calcular"):
 
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center;'>© 2025 Brasil Piscis - Developed by Matheus Tartaglia</p>", unsafe_allow_html=True)
+
+
+
+# coloquei esse comentario 
